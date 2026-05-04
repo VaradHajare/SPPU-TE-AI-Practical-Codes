@@ -8,7 +8,7 @@ This folder contains the laboratory experiments for **LP-II, Part I: Artificial 
 | --- | --- | --- | --- |
 | 1 | Group A | Implement Depth First Search and Breadth First Search using an undirected graph/tree. | `practical-1.py` |
 | 2 | Group A | Implement A* Algorithm for a game search problem. | `practical-2.py` |
-| 3 | Group A | Implement Greedy Search using Prim's Minimum Spanning Tree Algorithm. | `practical-3.py` |
+| 3 | Group A | Implement Greedy Search using Selection Sort. | `practical-3.py` |
 | 4 | Group B | Solve a Constraint Satisfaction Problem using Branch and Bound and Backtracking for the N-Queens problem. | `practical-4.py` |
 | 5 | Group B | Develop an elementary chatbot for a suitable customer interaction application. | `practical-5.py` |
 | 6 | Group C | Implement an expert system for a suitable domain. | `practical-6.py` |
@@ -17,15 +17,15 @@ This folder contains the laboratory experiments for **LP-II, Part I: Artificial 
 
 ### Practical 1: DFS and BFS
 
-Implements Depth First Search and Breadth First Search on an undirected graph/tree. The program also visualizes the traversal using `matplotlib` and `networkx`.
+Implements Depth First Search and Breadth First Search on an undirected tree.
 
 ### Practical 2: A* Algorithm
 
-Implements the A* Algorithm for a Tic-Tac-Toe game search problem. The computer uses heuristic search to select its moves.
+Implements the A* Algorithm for a Maze solving game search problem. 
 
 ### Practical 3: Greedy Search
 
-Implements Greedy Search using Prim's Minimum Spanning Tree Algorithm. The program accepts graph input, finds the MST, and displays the selected edges.
+Implements Greedy Search using Selection Sort. 
 
 ### Practical 4: Constraint Satisfaction Problem
 
@@ -44,7 +44,7 @@ Implements an expert system for a selected application domain.
 Install the required Python libraries before running programs that use visualization:
 
 ```bash
-pip install matplotlib networkx
+pip install matplotlib
 ```
 
 ## How to Run
